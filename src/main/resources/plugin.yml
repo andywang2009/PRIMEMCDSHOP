@@ -1,0 +1,11 @@
+name: DirtShop
+main: org.example.Main
+version: 1.0
+author: andywangdream
+commands:
+  dirtShop: #指令名
+    description: "PRMC泥土商店主命令" #指令的注解
+    usage: /dirtShop #指令的用法 当onCommand()方法返回false时提示这里的内容
+  gonggao:
+    description: "PRMC泥土商店公告"
+    usage: /gonggao
